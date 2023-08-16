@@ -1,4 +1,4 @@
-import WomanImg from "../assets/img/banner-woman2.webp";
+import ProfileImg from "../assets/img/profile.jpg";
 import Socials from "./Socials";
 const Hero = () => {
   return (
@@ -23,8 +23,8 @@ const Hero = () => {
             </div> */}
             <Socials />
           </div>
-          <div className="hidden lg:flex flex-1 justify-end items-end h-full">
-            <img src={WomanImg} alt="" />
+          <div className="hidden lg:flex flex-1 justify-end">
+            <img src={ProfileImg} alt="" className="rounded-full w-[400px]"/>
           </div>
         </div>
       </div>

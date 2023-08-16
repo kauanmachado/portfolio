@@ -11,6 +11,7 @@ import {
   FiMail,
   FiMapPin,
   FiLinkedin,
+  FiPhone,
 } from 'react-icons/fi';
 
 // companies icons
@@ -21,12 +22,12 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/p1.png';
+import Project2 from './assets/img/projects/p2.png';
+import Project3 from './assets/img/projects/p3.png';
+import Project4 from './assets/img/projects/p4.png';
+import Project5 from './assets/img/projects/p5.png';
+import Project6 from './assets/img/projects/p6.png';
 
 // skills images
 // import SkillImg1 from './assets/img/skills/html5.png';
@@ -105,30 +106,6 @@ export const stack = [
   
 ];
 
-// companies
-export const brands = [
-  {
-    img: FreelancerBrandIcon,
-    href: '',
-  },
-  {
-    img: UpworkBrandIcon,
-    href: '',
-  },
-  {
-    img: FiverBrandIcon,
-    href: '',
-  },
-  {
-    img: BehanceBrandIcon,
-    href: '',
-  },
-  {
-    img: DribbbleBrandIcon,
-    href: '',
-  },
-];
-
 // projects
 export const projectsData = [
   {
@@ -136,38 +113,48 @@ export const projectsData = [
     image: Project1,
     name: 'GoBarber',
     category: 'Plataforma de agendamento para barbearias',
-    stack: 'node, react, express, sqlite, prisma'
+    stack: 'node, react, express, sqlite, prisma',
+    link: "https://github.com/kauanmachado/gobarber"
   },
   {
     id: '2',
     image: Project2,
     name: 'Livro de Receitas',
-    category: 'REST API',
-    stack: '.NET, .NET Core, Entity Framework, SQL Server'
+    category: 'Livro de receitas',
+    stack: '.NET Core, Entity Framework, SQL Server',
+    link: "https://github.com/kauanmachado/LivroDeReceitas"
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    name: 'Spacetime',
+    category: 'Galeria de midias',
+    stack: 'Next, React-native, Typescript, Tailwind, Expo',
+    link: "https://github.com/kauanmachado/spacetime"
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    name: 'Awesome Dev Events',
+    category: 'CRUD de eventos',
+    stack: 'C#, ASP.NET Core 7, Entity Framework, Swagger',
+    link: "https://github.com/kauanmachado/AwesomeDevEvents"
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
-    category: 'web development',
+    name: 'Pokedex',
+    category: 'Listagem de pokemons',
+    stack: 'React, JavaScript',
+    link: "https://github.com/kauanmachado/pokedex"
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
-    category: 'web development',
+    name: 'KN Cursos',
+    category: 'CRUD de cursos',
+    stack: 'PHP, Laravel, bootstrap',
+    link: "https://github.com/kauanmachado/KN-Cursos"
   },
 ];
 
@@ -244,37 +231,3 @@ export const services = [
   },
 ];
 
-// testimonials
-export const testimonials = [
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage2,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-];
-
-// contact
-export const contact = [
-  {
-    icon: <FiMail />,
-    title: 'Deseja entrar em contato?',
-    subtitle: 'Me envie um e-mail kauan.smachado0@gmail.com',
-    description: '',
-  },
-];
