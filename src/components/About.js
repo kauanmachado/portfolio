@@ -12,9 +12,9 @@ const About = () => {
                     <p className="mb-4 text-accent">Software Developer Jr</p>
                     <hr className="mb-8 opacity-5" />
                     <p className="mb-8">
-                        Olá! Meu nome é Kauan da Silva Machado, tenho 19 anos e sou um entusiasta do desenvolvimento
-                         de software, focado especialmente nas tecnologias .NET Core, React, Next e Node.
-                          Atualmente, encontro-me no último semestre do Curso Técnico em Informática para Internet no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFSUL).
+                        Olá! Meu nome é Kauan da Silva Machado, tenho 20 anos e sou um desenvolvedor
+                         de software, focado especialmente nas tecnologias JavaScript, React, Next e Node.
+                          Atualmente, encontro-me no primeiro semestre em Análise e Desenvolvimento de Sistemas no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFSUL), onde também me formei no Curso Técnico em Informática para Internet.
                           Desde o início da minha jornada na área da tecnologia, tenho dedicado minha paixão e esforços ao desenvolvimento de soluções inovadoras e eficientes.
                     </p>
                 </div>

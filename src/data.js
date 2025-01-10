@@ -143,10 +143,10 @@ export const projectsData = [
   {
     id: '5',
     image: Project5,
-    name: 'Pokedex',
-    category: 'Listagem de pokemons',
-    stack: 'React, JavaScript',
-    link: "https://github.com/kauanmachado/pokedex"
+    name: 'Gestão de funcionários',
+    category: 'Plataforma para gestão de funcionários',
+    stack: 'React, TypeScript, MaterialUI, Firebase',
+    link: "https://github.com/kauanmachado/taugor-gestao-funcionarios"
   },
   {
     id: '6',
